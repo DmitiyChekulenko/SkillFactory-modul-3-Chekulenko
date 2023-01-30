@@ -1,0 +1,621 @@
+body {
+    margin: 0;
+/*    background-color: #e0e0e0;*/
+    font-family:'Open Sans', sans-serif;
+}
+
+.header {
+    width: 1249px;
+    height: 89px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.site-menu {
+    text-align: center;
+}
+
+.site-menu > a {
+    display: inline-block;
+    padding: 42px 25px 30px;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-menu > a:hover {
+    background-color: #ff3f40;
+}
+@media screen and (max-width: 350px){
+    .site-menu   {
+        flex: 1 1 100%;
+    }
+}
+.intro {
+    background-color: #e0e0e0;
+    width: 1249px;
+    padding: 108px 0 123px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: 10px;
+}
+
+.intro-wrapper h1 {
+    font-family: 'Open Sans';
+    
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+
+.intro-text {
+    font-family: 'Open Sans';
+    margin-bottom: 58px;
+    opacity: 0.7; 
+}
+
+
+.contact-link {                 
+    color: #ffffff;
+    display: inline-block;
+    background-color: #ff3f40;
+    width: 227px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.intro-image {
+    width: 551px;
+    height: 356px;
+    margin-right: 20px;
+}
+@font-face {
+
+    src: url('fonts/OpenSans-Bold.ttf' ) format('truetype');
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.VtorayChast {
+    max-width: 1250px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+.levo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.levo h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    min-width: 600px;
+}
+
+.levo-text {
+    font-family: 'Open Sans';
+    margin-bottom: 58px;
+    opacity: 0.7; 
+    max-width: 550px;
+}
+.Learn-More {
+    color: #FF0000;
+    display: inline-block;
+    background-color: #fff;
+    width: 227px;
+    padding: 22px 0;
+    border: solid;
+    border-color: #ff3f40;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+}
+.pravo {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    max-width: 640px;
+}
+.pravo p {
+    max-width: 300px;
+    min-width: none;
+    margin-right: 10px;
+}
+.pravo h1  {
+    font-size: 24;
+}
+ 
+@media screen and (max-width: 650px) {
+    .pravo {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+}
+
+.TroiMarceau {                  /* Третья часть */
+    display: flex;
+    flex-direction: column;
+
+    max-width: 0 auto;
+    margin: 0 250px;
+   
+}
+.TroiMarceau h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.7;
+    min-width: 400px;
+}
+.TroiMarceau p {
+    text-align: center;
+    font-size: 16px;
+    min-width: 400px;
+   
+}
+.tire-bold {
+    display: block;
+    margin: 0 auto;
+    width: 134px;
+    height: 3px;
+    background-color: #FF2D2D;
+    align-self: center;
+    margin-top: 10px;
+}
+.menu2 {
+    
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 30px;
+     min-width: 200px;
+}
+
+ .menu2 a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    
+ }
+
+ .menu2  a:hover {
+    color: #FF2D2D;
+}
+@media screen and (max-width: 1300px) {
+.menu2   {
+    
+    width: 200px;
+    text-align: center;
+    }
+}
+.picBeaucoup {
+    width: 300px;
+    height: 300px;
+    margin: 15px 15px;
+}
+.TOUT {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    flex: 1 1 300px;
+
+}
+
+
+.QuatorMarceau2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+/*    max-width: 1250px;*/
+    max-width: 0 auto;
+    margin: 0 250px;
+
+}
+.topP {
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    min-width: 500px;
+}
+.Zagolovok {
+    margin-bottom: 23px;
+    color: #585858;
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+.texpUp {
+    max-width: 460px;
+    margin-bottom: 30px;
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+}
+.Cherta {
+    margin-left: 0;
+    width: 122px;
+    height: 3px;
+    background-color: #ff2d2d;
+    border: none;
+}
+.botImg {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    align-content: space-between;
+    min-height: 450px;
+}
+.GrandedRed {
+    flex-shrink: 0;
+    width: 200px;
+    height: 250px;
+    background-color: #eb6d4a8f; /* почему-то не применяется к картинке это сво-во, сделал через nth-child у второго элемента заменил фон через инлайновый стиль */
+    align-self: start;
+    margin-right: 50px;  
+}
+
+.botImg img:nth-child(1) {
+    background-color: #eb6d4a8f;
+}
+
+.timeSignifie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 65px;
+}    
+.top2lvl {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    justify-content: space-between;
+    max-width: 642px;
+    margin-top: -7px;
+    margin: 0 10px;
+}
+.top2lvl h2 {
+    bottom: 5px;
+    font-size: 30px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+.top2lvl p {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    min-width: 400px;
+}
+.Ssilka a {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.top2lvl .Ssilka: hover {
+    text-decoration: underline;
+ }
+
+.PicturesPetit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.PetitReds {
+    flex-shrink: 0;
+    width: 200px;
+    height: 215px;
+    background-color: #FF3F40;
+    margin: 10px 10px;
+}
+
+@media screen and (max-width: 855px) {
+    .botImg {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .GrandedReds {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+} 
+
+
+
+
+.CenqMarceau {
+    color: white;
+    background-color: #000000;
+    width: 1580px;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+    font-family:'Open Sans', sans-serif;
+}
+.CenqMarceau h1 {
+    font-size: 42px;
+    padding-top: 120px;
+
+}
+
+
+.position_form {
+   display: flex;
+    justify-content: center;
+}
+.position_form input {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    width: 524px;
+    height: 64px;
+    padding-left: 38px;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+}
+ .position_form button {
+    width: 217px;
+    height: 66px;
+    border-radius: 5px;
+    background-color: #FF2D2D;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.SixMarceau {
+    margin: 0 250px;
+}
+.SixMarceau h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+.SixMarceau p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+/*    text-align: left;*/
+    width: 54%;
+} 
+.tire-bold3 {
+    display: block;
+    margin: 20px 10px;
+    width: 134px;
+    height: 5px;
+    background-color: #FF2D2D;
+    align-self: center;
+}
+
+.tous2 {
+ display: flex;
+ fles-direction: row;
+ justify-content: flex-start;
+ align-items:flex-start ;
+ margin: 20 auto;
+}
+ 
+
+
+.DeuxForm {
+    display: flex;
+    flex-direction: column;
+    border-color: transparent;
+
+}
+
+.DeuxForm  input::placeholder {
+  color: #000000;
+  
+}
+
+
+.position_form2 {
+   display: flex;
+    justify-content: flex-start;
+
+}
+
+.position_form2 input {
+    margin-right: 47px;
+    color: #000000;
+    background-color: #F0ECEC;
+    font-size: 16px;
+    width: 292px;
+    height: 67px;
+    text-align: left;
+    padding-left: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.position_form2 input name{
+    padding-left: 38px;
+}
+
+
+.position_form3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.position_form3 input {
+    
+    margin-top: 43px;
+    color: #000000;
+    background-color: #F0ECEC;
+    font-size: 16px;
+    width: 734px;
+    height: 252px;
+    text-align: left;
+
+    padding-top: -100px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+.position_form3  input::placeholder {
+  position: relative;
+  top: -90px;
+  left: 47px;
+}
+
+
+ .ButtonBold button {
+    width: 742px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: #FF2D2D;
+    border-color: transparent;
+    margin-left: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+@media screen and (max-width: 1200px){
+    .tous2 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .SixMarceau h1, p  {
+        min-width: 420px;
+    }
+
+
+    .position_form2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .position_form2 input:nth-of-type(2){
+        margin-top: 20px;
+        
+    }
+    .ButtonBold button {
+        text-align: left;
+    }
+
+
+}
+
+
+.imageBlack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFFFFF;
+    background-color:#000000;
+    min-width: 1419px;
+    height: 360px;
+    padding-left: 40px ;
+    padding-top: 110px ;
+    margin: 10px 0px;
+    font-family:'Open Sans', sans-serif;
+    
+}
+.imageBlack h2 {
+    font-size: 18px;
+    font-weight: bold;  
+}
+.Footer {
+    background-color:#000000;
+    width: 100%;
+    height: 115px;
+}
+.footer-wrapers {
+    display: flex;
+
+}
+.footer-wrapers p {
+    color: #FFFFFF;
+    padding-left: 300px ;
+    padding-top: 35px ;
+}
+.footer-wrapers img {
+    position: relative;
+    left: 500px;
+   
+    color: #FFFFFF;
+    background-color:#FFFFFF;
+    margin: 30px 15px;
+}
+@media screen and (max-width: 1200px){
+    .footer-wrapers img {
+        flex: 1 1 20vw;
+    }
+}
+
+
